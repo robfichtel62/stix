@@ -1,0 +1,136 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f395f3e-c3b6-4f13-b444-24b8b1d6afaa",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--7da28a27-45f2-4c01-93b8-99a8a8a18759",
+            "created": "2022-03-08T17:07:06.901Z",
+            "modified": "2022-03-08T17:07:06.901Z",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--7f9283ca-dd5d-44e3-b642-88adbff0a10c",
+            "created": "2022-03-08T17:07:06.902Z",
+            "modified": "2022-03-08T17:07:06.902Z",
+            "first_observed": "2022-03-08T11:07:29.27811Z",
+            "last_observed": "2022-03-08T11:07:29.27811Z",
+            "number_observed": 2,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "http://ua-passport.space/"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "ua-passport.space"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--ffd8f416-bf52-479a-87b7-28c2ba715da4",
+            "created": "2022-03-08T17:07:06.904Z",
+            "modified": "2022-03-08T17:07:06.904Z",
+            "first_observed": "2022-03-08T11:08:05.278298Z",
+            "last_observed": "2022-03-08T11:08:05.278298Z",
+            "number_observed": 6,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "5.9.224.217"
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "3",
+                    "src_port": 6667,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "5": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "6"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "6": {
+                    "type": "x-oca-asset",
+                    "hostname": "workstation1.sg2.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--d952d564-e00a-43b0-9109-fcea82c66aaa",
+            "created": "2022-03-08T17:07:06.906Z",
+            "modified": "2022-03-08T17:07:06.906Z",
+            "first_observed": "2022-03-08T11:08:19.278345Z",
+            "last_observed": "2022-03-08T11:08:19.278345Z",
+            "number_observed": 6,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "23.106.122.14"
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "3",
+                    "src_port": 6667,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "5": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "6"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "6": {
+                    "type": "x-oca-asset",
+                    "hostname": "workstation1.sg2.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        }
+    ]
+}

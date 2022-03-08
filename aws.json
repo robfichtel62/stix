@@ -1,0 +1,187 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e13afda-35ee-493d-9bea-073d5d10afda",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--6db31a55-be03-4359-83de-2e33e68ec7c4",
+            "created": "2022-03-08T17:06:54.143Z",
+            "modified": "2022-03-08T17:06:54.143Z",
+            "name": "AWS",
+            "identity_class": "events"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--0358bd24-97d3-4cd1-a369-4062630c9adc",
+            "created": "2022-03-08T17:06:54.145Z",
+            "modified": "2022-03-08T17:06:54.145Z",
+            "first_observed": "2022-03-08T11:07:40.27811Z",
+            "last_observed": "2022-03-08T11:07:40.27811Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:32:68:38"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "url",
+                    "value": "http://ua-passport.space/"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "bblake"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--cde551c3-4d16-4de2-80f6-1c739ad2b4d2",
+            "created": "2022-03-08T17:06:54.147Z",
+            "modified": "2022-03-08T17:06:54.147Z",
+            "first_observed": "2022-03-08T11:08:29.278298Z",
+            "last_observed": "2022-03-08T11:08:29.278298Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:32:68:38"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "5.9.224.217"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "bblake"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--bdd29737-cb79-4bd5-84cf-2034faafd72a",
+            "created": "2022-03-08T17:06:54.149Z",
+            "modified": "2022-03-08T17:06:54.149Z",
+            "first_observed": "2022-03-08T11:09:42.278345Z",
+            "last_observed": "2022-03-08T11:09:42.278345Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:32:68:38"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "23.106.122.14"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "bblake"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--becc4766-1178-4567-817f-c538aee470d6",
+            "created": "2022-03-08T17:06:54.150Z",
+            "modified": "2022-03-08T17:06:54.150Z",
+            "first_observed": "2022-03-08T11:10:39.278251Z",
+            "last_observed": "2022-03-08T11:10:39.278251Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:32:68:38"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 2551614464460,
+                    "name": "urw"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "bblake"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--9785a83f-fec5-4536-a595-fa61004be4db",
+            "created": "2022-03-08T17:06:54.152Z",
+            "modified": "2022-03-08T17:06:54.152Z",
+            "first_observed": "2022-03-08T11:11:26.278197Z",
+            "last_observed": "2022-03-08T11:11:26.278197Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:32:68:38"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.70.32",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "file",
+                    "hashes": {
+                        "MD5": "eb845b7a16ed82bd248e395d9852f467",
+                        "SHA-1": "912342f1c840a42f6b74132f8a7c4ffe7d40fb77",
+                        "SHA-256": "1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591"
+                    },
+                    "name": "urw"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "bblake"
+                }
+            }
+        }
+    ]
+}
